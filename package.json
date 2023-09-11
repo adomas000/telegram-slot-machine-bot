@@ -1,0 +1,23 @@
+{
+  "name": "kazynkebot-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kelpe",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nedb-promises": "^6.2.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "simple-node-logger": "^21.8.12",
+  }
+}
